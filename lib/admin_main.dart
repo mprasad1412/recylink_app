@@ -9,13 +9,13 @@ void main() async {
 
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "AIzaSyDMDt9Gn7_AxfqnY2rfsvB6mGgWuNNM94M",
-      authDomain: "recylink-d64da.firebaseapp.com",
-      projectId: "recylink-d64da",
-      storageBucket: "recylink-d64da.firebasestorage.app",
-      messagingSenderId: "371763927921",
-      appId: "1:371763927921:web:25ba165c2c09ce5388b4d0",
-      measurementId: "G-FH43QKYJJ4",
+      apiKey: "",
+      authDomain: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: "",
+      measurementId: "",
     ),
   );
 
