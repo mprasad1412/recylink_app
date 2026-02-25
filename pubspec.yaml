@@ -1,0 +1,98 @@
+name: recylink
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.3
+  font_awesome_flutter: ^10.7.0
+  image_picker: ^1.0.7
+  flutter_image_compress: ^2.3.0
+  url_launcher: ^6.3.1
+  intl: ^0.19.0
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  qr_flutter: ^4.1.0
+  tflite_flutter: ^0.12.1
+  image: ^4.1.3
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.1
+  cloud_firestore: ^6.1.0
+  firebase_auth: ^6.1.2
+  google_sign_in: ^6.2.1
+  firebase_storage: ^13.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+
+# Flutter Launcher Icons Configuration
+flutter_launcher_icons:
+  android: true
+  ios: false  # Set to true when you're ready for iOS
+  image_path: "lib/assets/app_icon.png"
+  adaptive_icon_background: "#F5FFED"  # Your splash screen background color
+  adaptive_icon_foreground: "lib/assets/app_icon.png"
+
+# Flutter Native Splash Configuration
+flutter_native_splash:
+  color: "#F5FFED"  # Your background color
+  image: lib/assets/logo.png
+  android: true
+  ios: false  # Set to true when you're ready for iOS
+  android_12:
+    image: lib/assets/logo.png
+    color: "#F5FFED"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/app_icon.png
+    - lib/assets/camera.png
+    - lib/assets/guide.png
+    - lib/assets/guide1.png
+    - lib/assets/guide2.png
+    - lib/assets/guide3.png
+    - lib/assets/guide4.png
+    - lib/assets/guide5.png
+    - lib/assets/guide6.png
+    - lib/assets/holdingbottle.png
+    - lib/assets/homeicon.png
+    - lib/assets/locationicon.png
+    - lib/assets/logo.png
+    - lib/assets/challengeicon.png
+    - lib/assets/markethome.png
+    - lib/assets/marketplace.png
+    - lib/assets/profilr.png
+    - lib/assets/star.png
+    - lib/assets/globe.png
+    - lib/assets/plasticsample.jpeg
+    - lib/assets/printerinksample.jpeg
+    - lib/assets/oldnewssample.jpg
+    - lib/assets/glasssample.jpeg
+    - lib/assets/personpoint.png
+    - lib/assets/arrow.png
+    - lib/assets/badge.png
+    - lib/assets/giftbox.png
+    - lib/assets/illus1.png
+    - lib/assets/illus2.png
+    - lib/assets/illus3.png
+    - lib/assets/illus4.png
+    - lib/assets/plasticicon.png
+    - lib/assets/papericon.png
+    - lib/assets/glassicon.png
+    - lib/assets/metalicon.png
+    - lib/assets/e-wasteicon.png
+    - lib/assets/textilesicon.png
+    - lib/assets/organicon.png
+    - lib/assets/models/waste_model_quant.tflite
+    - lib/assets/models/labels.txt

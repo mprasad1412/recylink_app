@@ -1,0 +1,7 @@
+E-waste
+Glass
+Metal
+Organic
+Paper
+Plastic
+Textiles
